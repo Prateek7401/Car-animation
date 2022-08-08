@@ -6,7 +6,7 @@
 .sky {
     width: 100%;
     height: 100vh;
-    background-image: url("https://lh3.googleusercontent.com/_jk-luJ59rdidHqRDF4_w7fxA0yV0jTNXpeI_TlM3BxArePKyqPUbtZXSE0egTS2FPYguYtIlxJx1GI=w1366-h568");
+    background-image: url("./sky.jpg");
     overflow: hidden;
     position: relative;
     background-repeat: no-repeat;
@@ -16,7 +16,7 @@
 .highway {
     width: 300%;
     height: 200px;
-    background-image: url("https://lh5.googleusercontent.com/yuyg4rYpVyZ-iwPzfBPwDu-Zj_zFv14kN3E5uI8Q-NcV2OEecmEmF3zYFY-Q5njxxG0XKHW97qmsJao=w1366-h568");
+    background-image: url("./highway.jpg");
     position: absolute;
     bottom: 0%;
     left: 0%;
@@ -32,7 +32,7 @@
 .city {
     width: 300%;
     height: 200px;
-    background-image: url("https://lh6.googleusercontent.com/Pop6tCAnWAy1J1q4jG0b13iu8T0RqCUClDR6164WNMsULeURgNUWBT300i3yI3G71e9yMfUqyFAGmxg=w1366-h625");
+    background-image: url("./city.png");
     position: absolute;
     bottom: 200px;
     left: 0%;
