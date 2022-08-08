@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.sky {
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://lh3.googleusercontent.com/_jk-luJ59rdidHqRDF4_w7fxA0yV0jTNXpeI_TlM3BxArePKyqPUbtZXSE0egTS2FPYguYtIlxJx1GI=w1366-h568");
+    overflow: hidden;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.highway {
+    width: 300%;
+    height: 200px;
+    background-image: url("https://lh5.googleusercontent.com/yuyg4rYpVyZ-iwPzfBPwDu-Zj_zFv14kN3E5uI8Q-NcV2OEecmEmF3zYFY-Q5njxxG0XKHW97qmsJao=w1366-h568");
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    animation: highway 4s linear infinite;
+}
+@keyframes highway {
+    100% {
+        transform:translateX(-1500px);
+    }
+}
+
+.city {
+    width: 300%;
+    height: 200px;
+    background-image: url("https://lh6.googleusercontent.com/Pop6tCAnWAy1J1q4jG0b13iu8T0RqCUClDR6164WNMsULeURgNUWBT300i3yI3G71e9yMfUqyFAGmxg=w1366-h625");
+    position: absolute;
+    bottom: 200px;
+    left: 0%;
+    right: 0%;
+    animation: city 4s linear infinite;
+}
+@keyframes city {
+    100% {
+        transform:translateX(-1500px);
+    }
+}
+.car {
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    left: 50%;
+    bottom: 70px;
+    transform: translateX(-50%);
+    z-index: 2;
+}
+.car img {
+    width: 100%;
+    animation: car 1s linear infinite;
+}
+@keyframes car {
+    0% {
+        transform: translateY(5px);
+    }
+    50% {
+        transform: translateY(0x);
+    }
+    100% {
+        transform: translateY(-5px);
+    }
+}
+.wheel {
+    /* border: 2px solid red; */
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 185px;
+    z-index: 2;
+}
+.wheel img {
+    width: 72px;
+    height: 72px;
+    animation: wheel 1s linear infinite;
+}
+@keyframes wheel {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.startWheel {
+    position: absolute;
+    left: 80px;
+}
+.lastWheel {
+    position: absolute;
+    left: -165px;
+}
+.birds
+{
+    /* margin-top: 10px; */
+    animation: fly 7s linear infinite;
+    transform: translateX(-50%);
+}
+@keyframes fly {
+    100%
+    {
+        transform: translateX(100%);
+    }
+}
+.plane
+{
+    animation: plane 4s linear infinite;
+
+}
+.plane img{
+    height: 10%;
+    width: 10%;
+}
+@keyframes plane {
+    100%
+    {
+        transform: translateX(100%);
+    }
+    
+} 
